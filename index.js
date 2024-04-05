@@ -3,7 +3,7 @@ const enRoute = require("./routes/enctypt/enRoute");
 const deRoute = require("./routes/decrypt/deRoute");
 const sendJoke = require("./routes/joke/jRoute");
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.listen(port, () => {
   console.log(`server is lisisng on port ${port}`);
